@@ -1,0 +1,212 @@
+/* All divs for the partition */
+* {
+    margin: 0;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.page-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+._main-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 580px;
+}
+._div1 {
+    width: 50%;
+    background-color: rgba(29, 161, 242, 0.6);
+}
+._div2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+._div2-part1 {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+._div2-part2{
+    /* position: relative;
+    z-index: 99000; */
+    width: 60%;
+    height: 58%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+/* Right side of the page */
+.bird-wrapper {
+    display: flex;
+}
+.bird {
+    max-width: 100%;
+    height: 30px;
+    align-self: flex-start;
+    color: rgb(29, 161, 242);
+    
+}
+._happening {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+._happening h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+._join {
+    margin-top: 45px;
+    margin-bottom: 15px;
+    color: rgb(20, 23, 26);
+}
+._join h4 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: rgb(20, 23, 26);
+}
+._option1 {
+    color: #ffffff;
+    align-self: center;
+    text-decoration: none;
+    border: 1px solid rgb(29, 161, 242);
+    border-radius: 50px;
+    width: 57%;
+    height: 8%;
+    padding-left: 165px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(29, 161, 242);
+}
+._option2 {
+    color: rgb(29, 161, 242);
+    align-self: center;
+    text-decoration: none;
+    border: 1px solid rgb(29, 161, 242);
+    border-radius: 50px;
+    width: 54.5%;
+    height: 8%;
+    padding-left: 170px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 700;
+}
+/* Centered Bird */
+._big-blue-bird {
+    fill: rgb(29, 161, 242);
+    margin-left: -15px;
+}
+/* Left side of the page */
+#_description {
+    color: #ffffff;
+    width: 50%;
+    height: 10px;
+    margin: 55px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 230px;
+    left: 175px;
+    font-size: 19px;
+    font-weight: 700;
+}
+._follow {
+    margin-bottom: 50px;
+    
+}
+._convo {
+    margin-bottom: 50px;
+}
+
+/* Footer */
+._footer {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(101, 119, 134);
+}
+._footer a {
+    text-decoration: none;
+    color: rgb(101, 119, 134);
+    padding-right: 15px;
+}._footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsiveness */
+@media all and (max-width: 768px) {
+    ._div1 {
+        display: none;
+    }
+    ._div2-part2{
+        /* position: relative;
+        z-index: 99000; */
+        width: 60%;
+        height: 58%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    ._happening {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    ._happening h3 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 30px;
+    }
+    ._join {
+        margin-top: 45px;
+        margin-bottom: 15px;
+        color: rgb(20, 23, 26);
+    }
+    ._join h4 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 15px;
+        color: rgb(20, 23, 26);
+    }
+    ._option1 {
+        color: #ffffff;
+        align-self: center;
+        text-decoration: none;
+        border: 1px solid rgb(29, 161, 242);
+        border-radius: 50px;
+        width: 57%;
+        height: 8%;
+        padding-left: 165px;
+        padding-top: 10px;
+        margin-bottom: 15px;
+        font-size: 15px;
+        font-weight: 700;
+        background-color: rgb(29, 161, 242);
+    }
+    ._option2 {
+        color: rgb(29, 161, 242);
+        align-self: center;
+        text-decoration: none;
+        border: 1px solid rgb(29, 161, 242);
+        border-radius: 50px;
+        width: 54.5%;
+        height: 8%;
+        padding-left: 170px;
+        padding-top: 10px;
+        margin-bottom: 15px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+}
